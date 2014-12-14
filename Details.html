@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <title>Introduction to Modern OpenGL in C++</title>
+        <script type="text/javascript">
+            function OpenFolder(fname) {
+                window.open(fname);
+                //alert("Running demo "+ fname);
+            }
+        </script>
+    </head>
+    <body>         
+        <a href="codes.7z">Download Complete Source Codes</a>
+        <fieldset id="p0" style="background-color:#ffdddd">
+              <b>Introduction</b>
+                    <fieldset id="ch1_0" >
+                        <legend align="center" >Setting up Visual Studio 2012 for Modern OpenGL Development</legend>
+                            <table>
+                                <tr>                                
+                                    <td width="30%">
+                                        <img src="images/ch1_0.png" width="256px"/>
+                                    </td>
+                                    <td>
+                                        This tutorial shows you how to setup Visual Studio 2012 for Modern OpenGL v 4.4 and above.
+                                    </td>
+                                </tr>   
+                            </table>
+                     </fieldset>
+                                         
+                                            
+                       <!-- <tr>
+                            <td align="right" colspan="2">
+                                <input type="button" value="Open Demo Folder" onclick="OpenFolder('../codes/build/');"/>
+                            </td>
+                        </tr>
+                        -->
+                    
+                    <br />
+                    <fieldset  id="ch1_1">
+                        <legend align="center">Creating a simple Windows application that clears the screen</legend>
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_1.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a simple Windows application that clears the background with red color in OpenGL v 4.4. In lagacy OpenGL (i.e. v 3.0 and less), we had to set the clear state using glClearColor and then call glClear with the GL_COLOR_BUFFER_BIT flag. In modern OpenGL, a new function is provided that does not require setting up of clear color state. This function is called glClearBufferv. For details, refer to the tutorial code example.
+                                </td>
+                            </tr>    
+                        </table>
+                    </fieldset>
+                    <br />
+                    <fieldset id="ch1_2">
+                        <legend align="center">Rendering a simple coloured triangles using shaders</legend>
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_2.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a simple coloured triangle using shaders in OpenGL v 4.4.
+                                </td>
+                            </tr>     
+                        </table>
+                    </fieldset>
+                    <br />
+                    <fieldset id="ch1_3" >                        
+                        <legend align="center">Creating a ripple vertex shader</legend>                    
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_3.png" width="256px" />
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a ripple on a tessellated quad using vertex shader in OpenGL v 4.4.
+                                </td>
+                            </tr>     
+                        </table>
+                    </fieldset>
+                    </br>
+                    <fieldset id="ch1_4" >                        
+                        <legend align="center">Creating dynamic geometry using tessellation shader</legend>                    
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_4.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to generate a dynamically tessellated triangle using tessellation control and tessellation evaluation shaders in OpenGL v 4.4.
+                                </td>
+                            </tr>     
+                        </table>
+                    </fieldset>
+                    </br>
+                    <fieldset id="ch1_5" >                        
+                        <legend align="center">Creating dynamic geometry tessellation using geometry shader</legend>                    
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_5.png" width="256px" />
+                                </td>
+                                <td>
+                                    This tutorial shows you how to generate a dynamically tessellated triangle using geometry shader in OpenGL v 4.4.
+                                </td>
+                            </tr>     
+                        </table>
+                    </fieldset>
+                    </br> 
+                     <fieldset id="ch1_6" >                        
+                        <legend align="center">Creating an image viewer using fragment shader</legend>                    
+                        <table>
+                            <tr>
+                                <td width="30%">
+                                    <img src="images/ch1_6.png" width="256px" />
+                                </td>
+                                <td>
+                                    This tutorial shows you how to load an image using fragment shaders in OpenGL v 4.4. The image is loaded using the DevIL image loading library.
+                                </td>
+                            </tr>     
+                        </table>
+                    </fieldset> 
+            </fieldset>
+        <br />
+        <fieldset id="p1" style="background-color:#ddffdd">
+            <b>3D Viewing and Object Picking</b> 
+                <fieldset id="ch2_1" >
+                    <legend align="center" >Implementing Free Camera</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch2_1.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a FreeCamera in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+                <br />
+                <fieldset id="ch2_2" >
+                    <legend align="center" >Implementing Target Camera</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch2_2.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a TargetCamera in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+                <br />
+                 <fieldset id="ch2_3" >
+                    <legend align="center" >Implementing View Frustum Culling</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch2_3.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to perform view frustum calculation in geometry shader using OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+                <br />
+                 <fieldset id="ch2_4" >
+                    <legend align="center">Geometric Primitives</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch2_4.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to generate and draw 3D geometric primitives namely Box, Sphere and Cylinder in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>    
+            <br />
+                 <fieldset id="ch2_5" >
+                    <legend align="center">Implementing Object Picking</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch2_5.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to perform object picking using depth buffer in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>               
+            </fieldset>
+        <br />
+        <fieldset id="p2" style="background-color:#ddddff">
+            <b>Image Processing and Cube Mapping</b>
+                <fieldset id="ch3_1" >
+                    <legend align="center" >Twirl Filter using Fragment Shader</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch3_1.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create a Twirl Filter using fragment shader in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+                <br /> 
+                <fieldset id="ch3_2" >
+                    <legend align="center" >Area Filtering (Sharpening/Blurring/Embossing) using Digital Convolution</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch3_2.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create area filtering using fragment shader in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+                <br />  
+                <fieldset id="ch3_3" >
+                    <legend align="center" >Skybox using Static Cube Mapping</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch3_3.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create static cube mapping in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>
+               <!--  <br />  
+                <fieldset id="ch3_4" >
+                    <legend align="center" >Reflective Object using Dynamic Cube Mapping</legend>
+                        <table>
+                            <tr>                                
+                                <td width="30%">
+                                    <img src="images/ch3_4.png" width="256px"/>
+                                </td>
+                                <td>
+                                    This tutorial shows you how to create dynamic cubemapping in OpenGL v 4.4 and above.
+                                </td>
+                            </tr>   
+                        </table>
+                </fieldset>  
+            </fieldset>
+        <br />
+       
+        <fieldset id="p3" style="background-color:#aaffaa">
+            <b>Lights and Shadows</b>
+                <ul>
+                    <li id="ch4_1">Per-fragment Point, Directional Light, Point Light with Attenuation</li>
+                    <li id="ch4_2">Per-fragment Spot Light</li>
+                    <li id="ch4_3">Shadow Mapping with percentage closer filtering (PCF)</li>
+                </ul> 
+            </fieldset>
+        <br />
+        <fieldset id="p4" style="background-color:#ccccff">
+            <b>Working with Mesh Model Formats</b>
+                <ul>
+                    <li id="ch5_1">Loading Terrains using Heightmaps</li>
+                    <li id="ch5_2">3DS Model Loading using Separate Buffer Objects</li>
+                    <li id="ch5_3">OBJ Model Loading using Interleaved Buffer Objects</li>
+                </ul>
+            </fieldset> 
+        <br /> 
+        <fieldset id="p5" style="background-color:#ccaaff">
+                <b>Physically-based Simulation on the GPU</b>
+                <ul>
+                    <li id="ch6_1">Modeling Cloth using Transform Feedback</li>
+                </ul>
+            </fieldset>
+      -->   
+        </fieldset>
+    </body>
+</html>
